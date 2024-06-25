@@ -1,24 +1,24 @@
 //Cambia el contenido de la etiqueta h1 con document.querySelector 
 //y asigna el siguiente texto: "Hora del Desafío".
-/*
+
 let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hola del Desafio';
-*/
+
 
 //Crea una función que muestre en la consola el mensaje 
 //"El botón fue clicado" siempre que se presione el botón 
 //"Console".
-/*
+
 function botonConsole() {
     alert('El boton fue clicado');
 }
-*/
+
 
 //Crea una función que se ejecute cuando se haga clic en 
 //el botón "prompt", preguntando el nombre de una ciudad de Brasil. 
 //Luego, muestra una alerta con el mensaje concatenando la respuesta 
 //con el texto: "Estuve en {ciudad} y me acordé de ti".
-/*
+
 function botonPrompt() {
     let respuestaUs = prompt("Que ciudad de brasil conoces?");
     alert(`Estuve en ${respuestaUs} y me acordé de ti`);
@@ -48,9 +48,9 @@ function botonSuma() {
         alert("Por favor ingresa un valor numerico valido");
     }
 }
-*/
 
-/*
+
+
 //Crear una función que muestre "¡Hola, mundo!" en la consola.
 function saludo() {
     console.log("¡Hola, Mundo!");
@@ -64,9 +64,9 @@ function saludo2() {
     console.log(`¡Hola, ${nombreU} como estas?`);
 }
 saludo2();
-*/
 
-/*
+
+
 //Crear una función que reciba un número como parámetro
 // y devuelva el doble de ese número.
 function numeroDoble() {
@@ -77,9 +77,9 @@ function numeroDoble() {
     
 }
 numeroDoble();
-*/
 
-/*
+
+
 //Crear una función que reciba tres números como 
 //parámetros y devuelva su promedio.
 alert('Bienvenido! Vamos a calcular un promedio de 3 numeros');
@@ -96,9 +96,9 @@ function calcPromedio() {
     }
 }
 calcPromedio();
-*/
 
-/*
+
+
 //Crear una función que reciba dos números como parámetros
 // y devuelva el mayor de ellos.
 alert('Bienvenido! ingresa dos numeros y te dire el mayor');
@@ -117,9 +117,9 @@ function numeroMayor() {
     }
 }
 numeroMayor();
-*/
 
-/*
+
+
 //Crear una función que reciba un número como parámetro y 
 //devuelva el resultado de multiplicar ese número por sí mismo.
 alert('Bienvenido! ingresa un numero y lo multiplicare por si mismo');
@@ -135,9 +135,9 @@ function numeroMultiplicado() {
 }
 
 numeroMultiplicado();
-*/
 
-/*
+
+
 //Crea una función que calcule el índice de masa corporal (IMC) 
 //de una persona a partir de su altura en metros y peso en kilogramos,
 //que se recibirán como parámetros.
@@ -162,9 +162,9 @@ function solicitarDatos() {
     }
 }
 solicitarDatos();
-*/
 
-/*
+
+
 //Crea una función que calcule el valor del factorial 
 //de un número pasado como parámetro.
 function calcularFactorial(numero) {
@@ -190,9 +190,9 @@ function solicitarNumeroF() {
 
 //Llamamos a la funcion para solicitar el numero y calcular el factorial.
 solicitarNumeroF();
-*/
 
-/*
+
+
 //Crea una función que convierta un valor en dólares, 
 //pasado como parámetro, y devuelva el valor equivalente 
 //en reales(moneda brasileña,si deseas puedes hacerlo con 
@@ -221,7 +221,7 @@ convertirDolarReales();
 */
 
 
-/*
+
 //Crea una función que muestre en pantalla el 
 //área y el perímetro de una sala rectangular, 
 //utilizando la altura y la anchura que se proporcionarán 
@@ -252,9 +252,9 @@ function calcularAreayPerimetro() {
 }
 
 calcularAreayPerimetro();
-*/
 
-/*
+
+
 //Crea una función que muestre en pantalla 
 //el área y el perímetro de una sala circular, 
 //utilizando su radio que se proporcionará como 
@@ -281,7 +281,7 @@ if(!isNaN(radio) && radio > 0) {
 } else {
     alert("Por favor, ingresa un valor numerico positivo valido para el radio-2");
 }
-*/
+
 
 
 //Crea una función que muestre en pantalla 
